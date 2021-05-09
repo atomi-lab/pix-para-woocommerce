@@ -1,0 +1,26 @@
+{
+    "name": "atomi/atomi-woopix-for-woocommerce",
+    "description": "Adiciona Pix como método de pagamento no WooCommerce",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Atomi",
+            "email": "contato@atomi.com.br",
+            "homepage": "https://www.atomi.com.br"
+        },
+        {
+            "name": "Victor Betini",
+            "email": "victor@atomi.com.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Atomi\\WooPix\\": "includes/"
+        }
+    },
+    "require": {
+        "endroid/qr-code": "4.1.3"
+    }
+}
